@@ -1,0 +1,124 @@
+body {
+    background-color: black;
+    margin: 0 auto;
+    opacity: 0.9;
+    color: seashell;
+    font-family: Helvetica;
+    text-align: center;
+}
+
+header > img {
+    margin: 10px;
+    height: 70%;
+}
+
+header {
+    height: 69px;
+    border-bottom: 1px solid seashell;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    background-color: black;
+    text-decoration: underline;
+    color: seashell;
+}
+
+a:link{
+    color: seashell;
+    font-size: 1.5em;
+}
+
+a:visited{
+
+}
+
+a:hover{
+
+}
+
+a:active{
+
+}
+
+header li {
+    display: inline;
+}
+
+.logo {
+    float: left;
+}
+
+header ul {
+    float: right;
+    margin: 25px 10px;
+}
+
+header li+li::before{
+    padding: 10px;
+    content: ">";
+}
+
+
+header.logo {
+    margin-left: 10px;
+}
+
+main#mission{
+    background-color: black;
+    position: relative;
+}
+
+main > img {
+    width: 90%;
+    height: 700px;
+    object-fit: cover;
+}
+
+.slogan{
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    background-color: black;
+    width: 100%;
+}
+
+.products {
+    display:inline-block;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: auto 10px;
+}
+
+.products > img{
+    height: 200px;
+    width: auto;
+}
+
+.background_locations {
+    width: 90%;
+    height: 500px;
+    object-fit: cover;
+}
+
+.location {
+    display: inline-block;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0px 40px;
+    width: 300px;
+    height: auto;
+    background-color: black;
+}
+.locations {
+    position: relative;
+}
+
+.locations_container{
+    position: absolute;
+    width: 100%;
+    top: 25%;
+}
+
+h5.copyright {
+    text-align: left;
+}
